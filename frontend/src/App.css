@@ -1,0 +1,46 @@
+.TableContainer {
+    margin: 20px;
+}
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Table th, .Table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.Table th {
+    background-color: #f2f2f2;
+}
+
+.Table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin: 0 10px;
+  }
+  
+  .nav-button:hover {
+    background-color: #495057;
+    border-color: #495057;
+  }
+  
+  
+  
